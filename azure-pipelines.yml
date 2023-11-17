@@ -17,6 +17,10 @@ steps:
 
 - script: |
     npm install
+    npm install cors
+    npm install bcrypt
+    npm install mongoose
+    npm install cookie-parser
     npm run build
     npm test
   displayName: 'npm install and build'
